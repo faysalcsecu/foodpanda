@@ -15,7 +15,7 @@ class FoodPandaUI extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           const SizedBox(height: 20),
-          Image.network('assets/images/101.png', height: 300),
+          Image.asset('assets/images/101.png', height: 300),
           const SizedBox(height: 10),
           const Text(
             "Are you hungry? Order Now . . .",
